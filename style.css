@@ -29,7 +29,16 @@ img{
 
 .section_header{
     text-align: center;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
+}
+/* header */
+header{
+    display: flex;
+    justify-content: space-between
+}
+.nav a{
+    text-decoration: none;
+    padding: 20px;
 }
 /* top banner0 */
 .top_banner{
@@ -64,6 +73,9 @@ img{
     line-height: 4px;
      box-shadow: rgb(0 0 0 / 35%) 0px 0px 50px;
 
+}
+.callection img{
+    margin: auto;
 }
 .callection_more{
     text-align: right;
